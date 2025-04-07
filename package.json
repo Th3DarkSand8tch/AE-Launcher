@@ -1,7 +1,7 @@
 {
     "name": "AfterEnd-Launcher",
     "preductname": "AfterEnd Launcher",
-    "version": "1",
+    "version": "1.0",
     "description": "Launcher Officiel de AfterEnd",
     "main": "src/app.js",
     "author": {
