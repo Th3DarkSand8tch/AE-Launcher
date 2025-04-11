@@ -30,9 +30,16 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Je... vie...", "author": "Luuxis" },
-            { "message": "Salut je suis du code.", "author": "Luuxis" },
-            { "message": "Linux n'est pas un os, mais un kernel.", "author": "Luuxis" }
+            { "message": "Attention : zombies en pause !", "author": "Th3DarkSand8tch" },
+            { "message": "Cherchez le dernier sandwich !", "author": "Th3DarkSand8tch" },
+            { "message": "Survivre, c'est un sport !", "author": "Th3DarkSand8tch" },
+            { "message": "Café : 0, apocalypse : 1", "author": "Th3DarkSand8tch" },
+            { "message": "Évitez les mutants, s'il vous plaît !", "author": "Th3DarkSand8tch" },
+            { "message": "Rassemblez vos chaussettes, c'est l'apocalypse !", "author": "Th3DarkSand8tch" },
+            { "message": "Qui a volé mon dernier donut ?", "author": "Th3DarkSand8tch" },
+            { "message": "Survivre, c'est comme un jeu de société !", "author": "Th3DarkSand8tch" },
+            { "message": "Préparez-vous à la danse des zombies !", "author": "Th3DarkSand8tch" },
+            { "message": "L'apocalypse : le nouveau chic !", "author": "Th3DarkSand8tch" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
